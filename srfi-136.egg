@@ -8,4 +8,5 @@
  (dependencies r7rs srfi-99)
  (test-dependencies srfi-64)
  (license "MIT")
- (components (extension srfi-136)))
+ (components (extension srfi-136)
+             (csc-options "-explicit-use")))
