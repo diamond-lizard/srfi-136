@@ -1,8 +1,7 @@
-(import (except scheme define-record-type))
+(import scheme)
 (import (except (chicken base) define-record-type))
 (import test)
 (import srfi-64)
-(import r7rs)
 
 (test-begin "Extensible record types")
 

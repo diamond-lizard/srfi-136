@@ -1,4 +1,4 @@
-(import (except scheme define-record-type))
+(import scheme)
 (import (except (chicken base) define-record-type))
 (import (chicken platform))
 (import (srfi-99))
