@@ -21,10 +21,9 @@
 ;; SOFTWARE.
 
 (module srfi-136 ()
-  (import (rename (scheme base)
+  (import (rename scheme
 		  (define-record-type scheme-define-record-type))
 	  srfi-137)
-  (import (chicken module))
   (export define-record-type
 	  record-type-descriptor?
 	  record?
