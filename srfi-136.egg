@@ -1,0 +1,10 @@
+;;; srfi-136.egg -*- Scheme -*- vim: ft=scheme:
+
+((author "Marc Nieper-Wißkirchen")
+ (maintainer "Sergey Goldgaber")
+ (synopsis "SRFI-136: Extensible record types")
+ (version "0.1")
+ (category data)
+ (test-dependencies test)
+ (license "MIT")
+ (components (extension srfi-136)))
