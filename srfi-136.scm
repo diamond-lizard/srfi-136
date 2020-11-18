@@ -1,5 +1,5 @@
 (import scheme)
-(import (chicken base))
+(import (except (chicken base) define-record-type))
 (import (chicken platform))
 (import (srfi-99))
 (import r7rs)

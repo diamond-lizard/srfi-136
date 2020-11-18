@@ -1,5 +1,5 @@
 (import scheme)
-(import (chicken base))
+(import (except (chicken base) define-record-type))
 (import test)
 (import srfi-64)
 (import r7rs)
