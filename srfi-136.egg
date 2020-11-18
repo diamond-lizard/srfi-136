@@ -5,6 +5,7 @@
  (synopsis "SRFI-136: Extensible record types")
  (version "0.1")
  (category data)
+ (dependencies r7rs srfi-99)
  (test-dependencies test)
  (license "MIT")
  (components (extension srfi-136)))
