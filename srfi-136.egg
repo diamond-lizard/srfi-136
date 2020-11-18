@@ -6,6 +6,6 @@
  (version "0.1")
  (category data)
  (dependencies r7rs srfi-99)
- (test-dependencies test)
+ (test-dependencies srfi-64)
  (license "MIT")
  (components (extension srfi-136)))
